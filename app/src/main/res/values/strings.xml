@@ -1,0 +1,29 @@
+<!--
+  ~ Copyright 2022 Erfan Sn
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">BeatCalc</string>
+
+    <string name="theme_changer">Theme changer</string>
+    <string name="calculations_history">Calculations history</string>
+    <string name="toggle_note_labels">Toggle note labels</string>
+    <string name="back_to_calculator">Back to calculator</string>
+    <string name="clear_history">Clear history</string>
+    <string name="nothing_to_show">Nothing to show!</string>
+    <string name="clear">Clear</string>
+    <string name="clear_history_now">Clear history now?</string>
+    <string name="cancel">Cancel</string>
+</resources>

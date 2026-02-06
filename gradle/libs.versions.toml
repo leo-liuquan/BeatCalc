@@ -1,0 +1,80 @@
+[versions]
+activityComposeVersion = "1.12.1"
+agpVersion = "8.13.2"
+benchmarkMacroJunit4Version = "1.4.1"
+constraintlayoutComposeVersion = "1.1.1"
+androidxTestVersion = "1.7.0"
+coreKtxVersion = "1.17.0"
+appcompatVersion = "1.7.1"
+desugarJdkLibsVersion = "2.1.5"
+hiltNavigationComposeVersion = "1.3.0"
+androidxJunitVersion = "1.3.0"
+junitVersion = "4.13.2"
+kotlinVersion = "2.2.21"
+kotlinxCoroutinesVersion = "1.10.2"
+kotlinxDatetimeVersion = "0.7.1"
+kspVersion = "2.3.3"
+daggerHiltVersion = "2.57.2"
+androidxLifecycleVersion = "2.10.0"
+mathparserOrgMxparserVersion = "6.1.0"
+mockkVersion = "1.14.7"
+navigationComposeVersion = "2.9.6"
+profileinstallerVersion = "1.4.1"
+robolectricVersion = "4.16"
+roomVersion = "2.8.4"
+truthVersion = "1.4.5"
+turbineVersion = "1.2.1"
+composeBomVersion = "2025.12.00"
+uiautomatorVersion = "2.3.0"
+androidxBaselineProfileVersion = "1.4.1"
+
+[libraries]
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityComposeVersion" }
+androidx-benchmark-macro-junit4 = { module = "androidx.benchmark:benchmark-macro-junit4", version.ref = "benchmarkMacroJunit4Version" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+androidx-runner = { module = "androidx.test:runner", version.ref = "androidxTestVersion" }
+androidx-core-ktx = { module = "androidx.test:core-ktx", version.ref = "androidxTestVersion" }
+androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+androidx-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+androidx-uiautomator = { module = "androidx.test.uiautomator:uiautomator", version.ref = "uiautomatorVersion" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutComposeVersion" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtxVersion" }
+desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugarJdkLibsVersion" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "androidxJunitVersion" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "daggerHiltVersion" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "daggerHiltVersion" }
+hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationComposeVersion" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesVersion" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesVersion" }
+junit = { module = "junit:junit", version.ref = "junitVersion" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinxDatetimeVersion" }
+lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidxLifecycleVersion" }
+material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
+material = { module = "androidx.compose.material:material" }
+mathparser-org-mxparser = { module = "org.mariuszgromada.math:MathParser.org-mXparser", version.ref = "mathparserOrgMxparserVersion" }
+mockk-agent = { module = "io.mockk:mockk-agent", version.ref = "mockkVersion" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockkVersion" }
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationComposeVersion" }
+profileinstaller = { module = "androidx.profileinstaller:profileinstaller", version.ref = "profileinstallerVersion" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectricVersion" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVersion" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomVersion" }
+truth = { module = "com.google.truth:truth", version.ref = "truthVersion" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbineVersion" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomVersion" }
+lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidxLifecycleVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agpVersion" }
+android-test = { id = "com.android.test", version.ref = "agpVersion" }
+android-library = { id = "com.android.library", version.ref = "agpVersion" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "kspVersion" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "daggerHiltVersion" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlinVersion" }
+androidx-baselineprofile = { id = "androidx.baselineprofile", version.ref = "androidxBaselineProfileVersion" }
+androidx-room = { id = "androidx.room", version.ref = "roomVersion" }

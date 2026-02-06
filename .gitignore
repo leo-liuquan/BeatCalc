@@ -1,0 +1,44 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+/bin
+/gen
+/out
+/build
+/.kotlin
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+
+# Windows thumbnail db
+.DS_Store
+
+# Gradle cache
+.gradle
+
+# Sandbox stuff
+_sandbox
+
+# Android Studio captures folder
+/captures
+
+# IDE/editor config
+.vscode/
+
+# Signing / keystore (DO NOT COMMIT)
+my-release-key.jks
+keystore.properties
+*.jks
+*.keystore
