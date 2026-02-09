@@ -1,11 +1,11 @@
 ## BeatCalc Privacy Policy
 
-## 隐私政策（中文摘要）
+### Summary (English)
 
-- **本地数据**：计算历史仅保存在你的设备本地（App 沙盒）中。
-- **第三方服务**：本 App 使用 **Google AdMob（Google Mobile Ads SDK）** 展示广告；同时可能包含 **联盟/推广链接**，点击后会跳转到第三方网站/商店。
-- **网络权限**：为加载广告与打开外部链接，App 可能会使用网络相关权限（如 `INTERNET`、`ACCESS_NETWORK_STATE`）。
-- **第三方隐私政策**：广告与外部链接所涉及的数据处理由第三方按其隐私政策执行。
+- **Local data**: Calculation history is stored locally on your device (inside the App sandbox).
+- **Third-party services**: This App uses **Google AdMob (Google Mobile Ads SDK)** to display ads, and it may include **affiliate/referral links** that open third-party websites or stores.
+- **Network permissions**: To load ads and open external links, the App may use network-related permissions such as `INTERNET` and `ACCESS_NETWORK_STATE`.
+- **Third-party privacy policies**: Ads and external links are handled by third parties under their own privacy policies.
 
 ---
 
