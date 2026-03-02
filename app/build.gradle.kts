@@ -36,8 +36,8 @@ android {
         applicationId = "com.quickdev.app.calculator"
         minSdk = Configs.MIN_SDK_VERSION
         targetSdk = Configs.TARGET_SDK_VERSION
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 3
+        versionName = "3.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -144,6 +144,8 @@ dependencies {
     implementation(libs.profileinstaller)
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
+    implementation(libs.play.services.ads)
+    implementation(libs.lifecycle.process)
 
     implementation(libs.hilt.navigation.compose)
     implementation(libs.hilt.android)

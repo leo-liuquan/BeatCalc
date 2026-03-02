@@ -17,6 +17,10 @@
 <resources>
     <string name="app_name">BeatCalc</string>
 
+    <!-- AdMob IDs must start with "ca-app-pub-". -->
+    <string name="admob_app_id">ca-app-pub-3105644485148262~4849998119</string>
+    <string name="admob_app_open_ad_unit_id">ca-app-pub-3105644485148262/7762365823</string>
+
     <string name="theme_changer">Theme changer</string>
     <string name="calculations_history">Calculations history</string>
     <string name="toggle_note_labels">Toggle note labels</string>
